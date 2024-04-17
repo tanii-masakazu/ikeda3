@@ -1,0 +1,789 @@
+{% extends "base.html" %}
+{% block head_title %}○○さんてどんな顔{% endblock %}
+{% block content %}
+
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+  <div class="container" >
+    <h1 class="my-3 text-start mx-auto" style="max-width:400px">{% if not profile %}4.○○さんてどんな顔{% else %}{{profile.username}}の○○さんてどんな顔{% endif %}</h1>
+    <hr>
+  </div>
+</head>
+
+<body>
+    <div style="text-align: center" id="4-1">
+        <p>&nbsp;</p>
+        <hr>
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>池田糖化工業㈱</strong></font>
+        </p>
+    </div>
+
+    <hr>
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">東京本社</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/tokyo4.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo6.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo6.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo8.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo8.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo9.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo9.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo10.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo10.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo11.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo11.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo12.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo12.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo13.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo13.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo14.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo14.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo15.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo15.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo16.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo16.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo17.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo17.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo19.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo19.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo2.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tokyo3.jpg" data-lightbox="tokyo"><img src="/media/face/tokyo3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">名古屋支店</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/nagoya1.jpg" data-lightbox="nagoya"><img src="/media/face/nagoya1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/nagoya2.jpg" data-lightbox="nagoya"><img src="/media/face/nagoya2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">大阪支店</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/osaka1.jpg" data-lightbox="osaka"><img src="/media/face/osaka1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/osaka2.jpg" data-lightbox="osaka"><img src="/media/face/osaka2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/osaka3.jpg" data-lightbox="osaka"><img src="/media/face/osaka3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">福山営業所</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+               <p style="margin: 0;">                    
+                  <a href="/media/face/fukuyama1.jpg" data-lightbox="group22"><img src="/media/face/fukuyama1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+               </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">広島営業所</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/hirosima1.jpg" data-lightbox="hirosima"><img src="/media/face/hirosima1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/hirosima2.jpg" data-lightbox="hirosima"><img src="/media/face/hirosima2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">福岡支店</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/fukuoka1.jpg" data-lightbox="fukuoka"><img src="/media/face/fukuoka1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/fukuoka2.jpg" data-lightbox="fukuoka"><img src="/media/face/fukuoka2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/fukuoka3.jpg" data-lightbox="fukuoka"><img src="/media/face/fukuoka3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/fukuoka4.jpg" data-lightbox="fukuoka"><img src="/media/face/fukuoka4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/fukuoka5.jpg" data-lightbox="fukuoka"><img src="/media/face/fukuoka5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/fukuoka6.jpg" data-lightbox="fukuoka"><img src="/media/face/fukuoka6.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">鹿児島出張所</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+               <p style="margin: 0;">                    
+                  <a href="/media/face/kagosima2.jpg" data-lightbox="kagosima"><img src="/media/face/kagosima2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+               </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">品質保証部</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">
+                    <a href="/media/face/hinho1.jpg" data-lightbox="group1"><img src="/media/face/hinho1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">業務部</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">
+                    <a href="/media/face/gyoumu1.jpg" data-lightbox="group2"><img src="/media/face/gyoumu1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/gyoumu2.jpg" data-lightbox="group2"><img src="/media/face/gyoumu2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+        
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">第一工場</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">
+                    <a href="/media/face/1kou1.jpg" data-lightbox="group3"><img src="/media/face/1kou1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/1kou2.jpg" data-lightbox="group3"><img src="/media/face/1kou2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/1kou4.jpg" data-lightbox="group3"><img src="/media/face/1kou4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/1kou5.jpg" data-lightbox="group3"><img src="/media/face/1kou5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">第二工場</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">
+                    <a href="/media/face/2kou1.jpg" data-lightbox="group4"><img src="/media/face/2kou1.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou2.jpg" data-lightbox="group4"><img src="/media/face/2kou2.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou3.jpg" data-lightbox="group4"><img src="/media/face/2kou3.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou4.jpg" data-lightbox="group4"><img src="/media/face/2kou4.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou5.jpg" data-lightbox="group4"><img src="/media/face/2kou5.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou6.jpg" data-lightbox="group4"><img src="/media/face/2kou6.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou7.jpg" data-lightbox="group4"><img src="/media/face/2kou7.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou8.jpg" data-lightbox="group4"><img src="/media/face/2kou8.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou9.jpg" data-lightbox="group4"><img src="/media/face/2kou9.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou10.jpg" data-lightbox="group4"><img src="/media/face/2kou10.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou11.jpg" data-lightbox="group4"><img src="/media/face/2kou11.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou12.jpg" data-lightbox="group4"><img src="/media/face/2kou12.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou13.jpg" data-lightbox="group4"><img src="/media/face/2kou13.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou14.jpg" data-lightbox="group4"><img src="/media/face/2kou14.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou15.jpg" data-lightbox="group4"><img src="/media/face/2kou15.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou16.jpg" data-lightbox="group4"><img src="/media/face/2kou16.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou17.jpg" data-lightbox="group4"><img src="/media/face/2kou17.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou18.jpg" data-lightbox="group4"><img src="/media/face/2kou18.jpg" width="300" height="300" border="2"   vspace='2'></a>
+                    <a href="/media/face/2kou19.jpg" data-lightbox="group4"><img src="/media/face/2kou19.jpg" width="300" height="300" border="2"   vspace='2'></a>
+	            </p>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>  
+                
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">第三工場</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">
+                    <a href="/media/face/3kou1.jpg" data-lightbox="group5"><img src="/media/face/3kou1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou2.jpg" data-lightbox="group5"><img src="/media/face/3kou2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou3.jpg" data-lightbox="group5"><img src="/media/face/3kou3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou4.jpg" data-lightbox="group5"><img src="/media/face/3kou4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou5.jpg" data-lightbox="group5"><img src="/media/face/3kou5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou6.jpg" data-lightbox="group5"><img src="/media/face/3kou6.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou7.jpg" data-lightbox="group5"><img src="/media/face/3kou7.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou8.jpg" data-lightbox="group5"><img src="/media/face/3kou8.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou9.jpg" data-lightbox="group5"><img src="/media/face/3kou9.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou10.jpg" data-lightbox="group5"><img src="/media/face/3kou10.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/3kou11.jpg" data-lightbox="group5"><img src="/media/face/3kou11.jpg" width="300" height="300" border="2"  vspace='2'></a>
+	             </p>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>  
+                
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">第四工場</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">
+                    <a href="/media/face/4kou2.jpg" data-lightbox="group6"><img src="/media/face/4kou2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/4kou3.jpg" data-lightbox="group6"><img src="/media/face/4kou3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/4kou4.jpg" data-lightbox="group6"><img src="/media/face/4kou4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/4kou5.jpg" data-lightbox="group6"><img src="/media/face/4kou5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/4kou6.jpg" data-lightbox="group6"><img src="/media/face/4kou6.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/4kou7.jpg" data-lightbox="group6"><img src="/media/face/4kou7.jpg" width="300" height="300" border="2"  vspace='2'></a>
+	            </p>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p> 
+                
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">第五工場</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">
+                    <a href="/media/face/5kou1.jpg" data-lightbox="group7"><img src="/media/face/5kou1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+		            <a href="/media/face/5kou2.jpg" data-lightbox="group7"><img src="/media/face/5kou2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/5kou3.jpg" data-lightbox="group7"><img src="/media/face/5kou3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/5kou4.jpg" data-lightbox="group7"><img src="/media/face/5kou4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/5kou5.jpg" data-lightbox="group7"><img src="/media/face/5kou5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/5kou6.jpg" data-lightbox="group7"><img src="/media/face/5kou6.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/5kou7.jpg" data-lightbox="group7"><img src="/media/face/5kou7.jpg" width="300" height="300" border="2"  vspace='2'></a>
+	                <a href="/media/face/5kou8.jpg" data-lightbox="group7"><img src="/media/face/5kou8.jpg" width="300" height="300" border="2"  vspace='2'></a>
+	            </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+                
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">生産技術部</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">
+                    <a href="/media/face/seisangijitsu1.jpg" data-lightbox="group8"><img src="/media/face/seisangijitsu1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+	            </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">桜馬場本社</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/honsha1.jpg" data-lightbox="group17"><img src="/media/face/honsha1.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/honsha2.jpg" data-lightbox="group17"><img src="/media/face/honsha2.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+	            </p> 
+            </div>
+        </div>
+    </div>
+   
+
+
+
+    <div style="text-align: center" id="4-2">
+        <p>&nbsp;</p>
+        <hr>
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>池田食研㈱</strong></font>
+        </p>
+    </div>
+                    
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">研究所</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/knq1.jpg" data-lightbox="group9"><img src="/media/face/knq1.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/knq2.jpg" data-lightbox="group9"><img src="/media/face/knq2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/knq3.jpg" data-lightbox="group9"><img src="/media/face/knq3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+	            </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">バイオプロダクツ</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/bp1.jpg" data-lightbox="group10"><img src="/media/face/bp1.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/bp2.jpg" data-lightbox="group10"><img src="/media/face/bp2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+	            </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">第一開発</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/1kai1.jpg" data-lightbox="group11"><img src="/media/face/1kai1.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/1kai2.jpg" data-lightbox="group11"><img src="/media/face/1kai2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+		            <a href="/media/face/1kai3.jpg" data-lightbox="group11"><img src="/media/face/1kai3.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+	            </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">第二開発</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/2kai1.jpg" data-lightbox="group12"><img src="/media/face/2kai1.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/2kai2.jpg" data-lightbox="group12"><img src="/media/face/2kai2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+		            <a href="/media/face/2kai3.jpg" data-lightbox="group12"><img src="/media/face/2kai3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/2kai4.jpg" data-lightbox="group12"><img src="/media/face/2kai4.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/2kai5.jpg" data-lightbox="group12"><img src="/media/face/2kai5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+		            <a href="/media/face/2kai6.jpg" data-lightbox="group12"><img src="/media/face/2kai6.jpg" width="300" height="300" border="2"  vspace='2'></a>	 
+                    <a href="/media/face/2kai7.jpg" data-lightbox="group12"><img src="/media/face/2kai7.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/2kai8.jpg" data-lightbox="group12"><img src="/media/face/2kai8.jpg" width="300" height="300" border="2"  vspace='2'></a>
+		            <a href="/media/face/2kai9.jpg" data-lightbox="group12"><img src="/media/face/2kai9.jpg" width="300" height="300" border="2"  vspace='2'></a>	 	   
+	            </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">第四開発</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/4kai1.jpg" data-lightbox="group14"><img src="/media/face/4kai1.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">分析</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/bunseki1.jpg" data-lightbox="group15"><img src="/media/face/bunseki1.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+           	        <a href="/media/face/bunseki2.jpg" data-lightbox="group15"><img src="/media/face/bunseki2.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/bunseki3.jpg" data-lightbox="group15"><img src="/media/face/bunseki3.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/bunseki4.jpg" data-lightbox="group15"><img src="/media/face/bunseki4.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/bunseki5.jpg" data-lightbox="group15"><img src="/media/face/bunseki5.jpg" width="300" height="300" border="2"  vspace='2'></a>	   
+                    <a href="/media/face/bunseki6.jpg" data-lightbox="group15"><img src="/media/face/bunseki6.jpg" width="300" height="300" border="2"  vspace='2'></a>	 
+                    <a href="/media/face/bunseki61.jpg" data-lightbox="group15"><img src="/media/face/bunseki61.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+	             </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">品質情報室</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/hinjyo1.jpg" data-lightbox="group16"><img src="/media/face/hinjyo1.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+	            </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">業務推進室</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/gyoumusui1.jpg" data-lightbox="group17"><img src="/media/face/gyoumusui1.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/gyoumusui2.jpg" data-lightbox="group17"><img src="/media/face/gyoumusui2.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+    
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">東京開発</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/tokyokaihatsu1.jpg" data-lightbox="tokyokaihatsu"><img src="/media/face/tokyokaihatsu1.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/tokyokaihatsu2.jpg" data-lightbox="tokyokaihatsu"><img src="/media/face/tokyokaihatsu2.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/tokyokaihatsu3.jpg" data-lightbox="tokyokaihatsu"><img src="/media/face/tokyokaihatsu3.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/tokyokaihatsu5.jpg" data-lightbox="tokyokaihatsu"><img src="/media/face/tokyokaihatsu5.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/tokyokaihatsu8.jpg" data-lightbox="tokyokaihatsu"><img src="/media/face/tokyokaihatsu8.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+	            </p> 
+            </div>
+        </div>
+    </div>
+  
+
+
+
+
+
+    <div style="text-align: center" id="4-3">
+        <p>&nbsp;</p>
+        <hr>
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>日本リコス㈱</strong></font>
+        </p>
+    </div>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">手城工場</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">  
+                    <a href="/media/face/teshi32.jpg" data-lightbox="group19"><img src="/media/face/teshi32.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi33.jpg" data-lightbox="group19"><img src="/media/face/teshi33.jpg" width="300" height="300" border="2"  vspace='2'></a>                  
+                    <a href="/media/face/teshi1.jpg" data-lightbox="group19"><img src="/media/face/teshi1.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi2.jpg" data-lightbox="group19"><img src="/media/face/teshi2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi3.jpg" data-lightbox="group19"><img src="/media/face/teshi3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi4.jpg" data-lightbox="group19"><img src="/media/face/teshi4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi5.jpg" data-lightbox="group19"><img src="/media/face/teshi5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi6.jpg" data-lightbox="group19"><img src="/media/face/teshi6.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi7.jpg" data-lightbox="group19"><img src="/media/face/teshi7.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi8.jpg" data-lightbox="group19"><img src="/media/face/teshi8.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi9.jpg" data-lightbox="group19"><img src="/media/face/teshi9.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi10.jpg" data-lightbox="group19"><img src="/media/face/teshi10.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi11.jpg" data-lightbox="group19"><img src="/media/face/teshi11.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi12.jpg" data-lightbox="group19"><img src="/media/face/teshi12.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi13.jpg" data-lightbox="group19"><img src="/media/face/teshi13.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi14.jpg" data-lightbox="group19"><img src="/media/face/teshi14.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi15.jpg" data-lightbox="group19"><img src="/media/face/teshi15.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi16.jpg" data-lightbox="group19"><img src="/media/face/teshi16.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi17.jpg" data-lightbox="group19"><img src="/media/face/teshi17.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi18.jpg" data-lightbox="group19"><img src="/media/face/teshi18.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi19.jpg" data-lightbox="group19"><img src="/media/face/teshi19.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi20.jpg" data-lightbox="group19"><img src="/media/face/teshi20.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi21.jpg" data-lightbox="group19"><img src="/media/face/teshi21.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi22.jpg" data-lightbox="group19"><img src="/media/face/teshi22.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi23.jpg" data-lightbox="group19"><img src="/media/face/teshi23.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi24.jpg" data-lightbox="group19"><img src="/media/face/teshi24.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi25.jpg" data-lightbox="group19"><img src="/media/face/teshi25.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi26.jpg" data-lightbox="group19"><img src="/media/face/teshi26.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi27.jpg" data-lightbox="group19"><img src="/media/face/teshi27.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi28.jpg" data-lightbox="group19"><img src="/media/face/teshi28.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi29.jpg" data-lightbox="group19"><img src="/media/face/teshi29.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi30.jpg" data-lightbox="group19"><img src="/media/face/teshi30.jpg" width="300" height="300" border="2"  vspace='2'></a>
+		            <a href="/media/face/teshi31.jpg" data-lightbox="group19"><img src="/media/face/teshi31.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi34.jpg" data-lightbox="group19"><img src="/media/face/teshi34.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi35.jpg" data-lightbox="group19"><img src="/media/face/teshi35.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi36.jpg" data-lightbox="group19"><img src="/media/face/teshi36.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi37.jpg" data-lightbox="group19"><img src="/media/face/teshi37.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi38.jpg" data-lightbox="group19"><img src="/media/face/teshi38.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi39.jpg" data-lightbox="group19"><img src="/media/face/teshi39.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi40.jpg" data-lightbox="group19"><img src="/media/face/teshi40.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi41.jpg" data-lightbox="group19"><img src="/media/face/teshi41.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi42.jpg" data-lightbox="group19"><img src="/media/face/teshi42.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi43.jpg" data-lightbox="group19"><img src="/media/face/teshi43.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi44.jpg" data-lightbox="group19"><img src="/media/face/teshi44.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi45.jpg" data-lightbox="group19"><img src="/media/face/teshi45.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi46.jpg" data-lightbox="group19"><img src="/media/face/teshi46.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi47.jpg" data-lightbox="group19"><img src="/media/face/teshi47.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi48.jpg" data-lightbox="group19"><img src="/media/face/teshi48.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/teshi49.jpg" data-lightbox="group19"><img src="/media/face/teshi49.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi50.jpg" data-lightbox="group19"><img src="/media/face/teshi50.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi51.jpg" data-lightbox="group19"><img src="/media/face/teshi51.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/teshi52.jpg" data-lightbox="group19"><img src="/media/face/teshi52.jpg" width="300" height="300" border="2"  vspace='2'></a>
+	            </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">笠岡工場</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/kasa1.jpg" data-lightbox="group23"><img src="/media/face/kasa1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">松浜工場</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/matsu1.jpg" data-lightbox="group24"><img src="/media/face/matsu1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/matsu2.jpg" data-lightbox="group24"><img src="/media/face/matsu2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                </p> 
+            </div>
+        </div>
+    </div>
+ 
+
+
+
+
+    <div style="text-align: center" id="4-4">
+        <p>&nbsp;</p>
+        <hr>
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>アイティケイ㈱</strong></font>
+        </p>
+    </div>
+    
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">アイティケイ㈱</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/itk1.jpg" data-lightbox="group20"><img src="/media/face/itk1.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+		            <a href="/media/face/itk2.jpg" data-lightbox="group20"><img src="/media/face/itk2.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+	                <a href="/media/face/itk3.jpg" data-lightbox="group20"><img src="/media/face/itk3.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/itk4.jpg" data-lightbox="group20"><img src="/media/face/itk4.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/itk5.jpg" data-lightbox="group20"><img src="/media/face/itk5.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/itk6.jpg" data-lightbox="group20"><img src="/media/face/itk6.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/itk7.jpg" data-lightbox="group20"><img src="/media/face/itk7.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/itk8.jpg" data-lightbox="group20"><img src="/media/face/itk8.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/itk9.jpg" data-lightbox="group20"><img src="/media/face/itk9.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/itk10.jpg" data-lightbox="group20"><img src="/media/face/itk10.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+                    <a href="/media/face/itk11.jpg" data-lightbox="group20"><img src="/media/face/itk11.jpg" width="300" height="300" border="2"  vspace='2'></a>	
+		        </p> 
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div style="text-align: center" id="4-5">
+        <p>&nbsp;</p>
+        <hr>
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>アイティエス㈱</strong></font>
+        </p>
+    </div>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">アイティエス㈱</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/its2.jpg" data-lightbox="group21"><img src="/media/face/its2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/its3.jpg" data-lightbox="group21"><img src="/media/face/its3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/its4.jpg" data-lightbox="group21"><img src="/media/face/its4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/its5.jpg" data-lightbox="group21"><img src="/media/face/its5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/its6.jpg" data-lightbox="group21"><img src="/media/face/its6.jpg" width="300" height="300" border="2"  vspace='2'></a>
+		        </p> 
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="text-align: center" id="4-6">
+        <p>&nbsp;</p>
+        <hr>
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>池田インターナショナル㈱</strong></font>
+        </p>
+    </div>
+           
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">事業企画・ＩＤＩ・カラメル事業部</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/kaigai1.jpg" data-lightbox="kaigai"><img src="/media/face/kaigai1.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kaigai2.jpg" data-lightbox="kaigai"><img src="/media/face/kaigai2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kaigai3.jpg" data-lightbox="kaigai"><img src="/media/face/kaigai3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kaigai4.jpg" data-lightbox="kaigai"><img src="/media/face/kaigai4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kaigai5.jpg" data-lightbox="kaigai"><img src="/media/face/kaigai5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kaigai7.jpg" data-lightbox="kaigai"><img src="/media/face/kaigai7.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kaigai8.jpg" data-lightbox="kaigai"><img src="/media/face/kaigai8.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kaigai9.jpg" data-lightbox="kaigai"><img src="/media/face/kaigai9.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kaigai10.jpg" data-lightbox="kaigai"><img src="/media/face/kaigai10.jpg" width="300" height="300" border="2"  vspace='2'></a>
+		        </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>         
+
+
+
+
+    <div style="text-align: center" id="4-7">
+        <p>&nbsp;</p>  
+        <hr>  
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>キサイフーズ工業㈱</strong></font>
+        </p>
+    </div>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">キサイフーズ工業㈱</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/kisai2.jpg" data-lightbox="kisai"><img src="/media/face/kisai2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai3.jpg" data-lightbox="kisai"><img src="/media/face/kisai3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai4.jpg" data-lightbox="kisai"><img src="/media/face/kisai4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai5.jpg" data-lightbox="kisai"><img src="/media/face/kisai5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai6.jpg" data-lightbox="kisai"><img src="/media/face/kisai6.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai8.jpg" data-lightbox="kisai"><img src="/media/face/kisai8.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai9.jpg" data-lightbox="kisai"><img src="/media/face/kisai9.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai10.jpg" data-lightbox="kisai"><img src="/media/face/kisai10.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai11.jpg" data-lightbox="kisai"><img src="/media/face/kisai11.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai15.jpg" data-lightbox="kisai"><img src="/media/face/kisai15.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai16.jpg" data-lightbox="kisai"><img src="/media/face/kisai16.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai17.jpg" data-lightbox="kisai"><img src="/media/face/kisai17.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai18.jpg" data-lightbox="kisai"><img src="/media/face/kisai18.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai19.jpg" data-lightbox="kisai"><img src="/media/face/kisai19.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai20.jpg" data-lightbox="kisai"><img src="/media/face/kisai20.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai21.jpg" data-lightbox="kisai"><img src="/media/face/kisai21.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai22.jpg" data-lightbox="kisai"><img src="/media/face/kisai22.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai23.jpg" data-lightbox="kisai"><img src="/media/face/kisai23.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai24.jpg" data-lightbox="kisai"><img src="/media/face/kisai24.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai26.jpg" data-lightbox="kisai"><img src="/media/face/kisai26.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai27.jpg" data-lightbox="kisai"><img src="/media/face/kisai27.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai28.jpg" data-lightbox="kisai"><img src="/media/face/kisai28.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai29.jpg" data-lightbox="kisai"><img src="/media/face/kisai29.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai30.jpg" data-lightbox="kisai"><img src="/media/face/kisai30.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai31.jpg" data-lightbox="kisai"><img src="/media/face/kisai31.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai32.jpg" data-lightbox="kisai"><img src="/media/face/kisai32.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai33.jpg" data-lightbox="kisai"><img src="/media/face/kisai33.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai34.jpg" data-lightbox="kisai"><img src="/media/face/kisai34.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai35.jpg" data-lightbox="kisai"><img src="/media/face/kisai35.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai36.jpg" data-lightbox="kisai"><img src="/media/face/kisai36.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai37.jpg" data-lightbox="kisai"><img src="/media/face/kisai37.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai38.jpg" data-lightbox="kisai"><img src="/media/face/kisai38.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai39.jpg" data-lightbox="kisai"><img src="/media/face/kisai39.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai40.jpg" data-lightbox="kisai"><img src="/media/face/kisai40.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai41.jpg" data-lightbox="kisai"><img src="/media/face/kisai41.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai42.jpg" data-lightbox="kisai"><img src="/media/face/kisai42.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai43.jpg" data-lightbox="kisai"><img src="/media/face/kisai43.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai44.jpg" data-lightbox="kisai"><img src="/media/face/kisai44.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai45.jpg" data-lightbox="kisai"><img src="/media/face/kisai45.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai46.jpg" data-lightbox="kisai"><img src="/media/face/kisai46.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai47.jpg" data-lightbox="kisai"><img src="/media/face/kisai47.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai48.jpg" data-lightbox="kisai"><img src="/media/face/kisai48.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai49.jpg" data-lightbox="kisai"><img src="/media/face/kisai49.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai50.jpg" data-lightbox="kisai"><img src="/media/face/kisai50.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai51.jpg" data-lightbox="kisai"><img src="/media/face/kisai51.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai52.jpg" data-lightbox="kisai"><img src="/media/face/kisai52.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai53.jpg" data-lightbox="kisai"><img src="/media/face/kisai53.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai54.jpg" data-lightbox="kisai"><img src="/media/face/kisai54.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai55.jpg" data-lightbox="kisai"><img src="/media/face/kisai55.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai56.jpg" data-lightbox="kisai"><img src="/media/face/kisai56.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai57.jpg" data-lightbox="kisai"><img src="/media/face/kisai57.jpg" width="300" height="300" border="2"  vspace='2'></a>                   
+                    <a href="/media/face/kisai58.jpg" data-lightbox="kisai"><img src="/media/face/kisai58.jpg" width="300" height="300" border="2"  vspace='2'></a>                    
+                    <a href="/media/face/kisai59.jpg" data-lightbox="kisai"><img src="/media/face/kisai59.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai60.jpg" data-lightbox="kisai"><img src="/media/face/kisai60.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai61.jpg" data-lightbox="kisai"><img src="/media/face/kisai61.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai62.jpg" data-lightbox="kisai"><img src="/media/face/kisai62.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai63.jpg" data-lightbox="kisai"><img src="/media/face/kisai63.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai67.jpg" data-lightbox="kisai"><img src="/media/face/kisai67.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai68.jpg" data-lightbox="kisai"><img src="/media/face/kisai68.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai69.jpg" data-lightbox="kisai"><img src="/media/face/kisai69.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai70.jpg" data-lightbox="kisai"><img src="/media/face/kisai70.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/kisai71.jpg" data-lightbox="kisai"><img src="/media/face/kisai71.jpg" width="300" height="300" border="2"  vspace='2'></a>
+		        </p> 
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div style="text-align: center"  id="4-8">
+        <p>&nbsp;</p>
+        <hr>
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>タヌマフーズ㈱</strong></font>
+        </p>
+    </div>
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">タヌマフーズ㈱</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/tanuma1.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma1.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+	                <a href="/media/face/tanuma2.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma2.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma3.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma3.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma4.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma4.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma5.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma5.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma6.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma6.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma7.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma7.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma8.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma8.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma9.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma9.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma11.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma11.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma12.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma12.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma13.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma13.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma14.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma14.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma15.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma15.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma16.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma16.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma17.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma17.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma18.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma18.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma19.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma19.jpg" width="300" height="300" border="2"  vspace='2'></a>
+                    <a href="/media/face/tanuma20.jpg" data-lightbox="tanuma"><img src="/media/face/tanuma20.jpg" width="300" height="300" border="2"  vspace='2'></a>
+
+	    
+		        </p> 
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+
+ 
+    <div style="text-align: center" id="4-9">
+        <p>&nbsp;</p>
+        <hr>
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>上越フーズ㈱</strong></font>
+        </p>
+    </div>
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">上越フーズ㈱</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/joe1.jpg" data-lightbox="joe"><img src="/media/face/joe1.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe2.jpg" data-lightbox="joe"><img src="/media/face/joe2.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe3.jpg" data-lightbox="joe"><img src="/media/face/joe3.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe4.jpg" data-lightbox="joe"><img src="/media/face/joe4.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe5.jpg" data-lightbox="joe"><img src="/media/face/joe5.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe6.jpg" data-lightbox="joe"><img src="/media/face/joe6.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe7.jpg" data-lightbox="joe"><img src="/media/face/joe7.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe8.jpg" data-lightbox="joe"><img src="/media/face/joe9.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe9.jpg" data-lightbox="joe"><img src="/media/face/joe10.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe10.jpg" data-lightbox="joe"><img src="/media/face/joe11.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe11.jpg" data-lightbox="joe"><img src="/media/face/joe12.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe12.jpg" data-lightbox="joe"><img src="/media/face/joe13.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe13.jpg" data-lightbox="joe"><img src="/media/face/joe14.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe14.jpg" data-lightbox="joe"><img src="/media/face/joe15.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe15.jpg" data-lightbox="joe"><img src="/media/face/joe16.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe16.jpg" data-lightbox="joe"><img src="/media/face/joe16.jpg" width="300" height="300" border="2"  vspace='2'></a>	               
+                    <a href="/media/face/joe17.jpg" data-lightbox="joe"><img src="/media/face/joe17.jpg" width="300" height="300" border="2"  vspace='2'></a>	 
+                    <a href="/media/face/joe19.jpg" data-lightbox="joe"><img src="/media/face/joe19.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/joe22.jpg" data-lightbox="joe"><img src="/media/face/joe22.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+         
+
+	    
+		        </p> 
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div style="text-align: center" id="4-10">
+        <p>&nbsp;</p>
+        <hr>
+        <p style="background-color:#ff69b4">
+            <font  size="7" color = "black"><strong>岡山アグリフーズ㈱</strong></font>
+        </p>
+    </div>
+
+    <div style="display: inline-block; background: #fcd330; padding: 3px 10px; color: #000000;"><font size="5">岡山アグリフーズ㈱</font></div>
+        <div style="padding: 10px; border: 10px ridge #fcd330; background: #ffffff;">
+            <div style="padding: 15px;">
+                <p style="margin: 0;">                    
+                    <a href="/media/face/aguri1.jpg" data-lightbox="group18"><img src="/media/face/aguri1.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+                    <a href="/media/face/aguri2.jpg" data-lightbox="group18"><img src="/media/face/aguri2.jpg" width="300" height="300" border="2"  vspace='2'></a>	  
+	            </p> 
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+
+
+
+    <div style="text-align: center">
+        <p style="background-color:#fce9ea">
+            <font  size="6" color = "red">随時更新中です。</font>
+     </div>
+
+</body>
+
+{% endblock %}
